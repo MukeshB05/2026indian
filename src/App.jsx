@@ -634,7 +634,7 @@ export default function App() {
         }
 
         <div style={{ marginTop:24,textAlign:"center",color:"var(--text-muted)",fontSize:10,lineHeight:2 }}>
-          <span style={{ color:"#f97316",fontWeight:800 }}>SAYAN-IPL</span> · Star Sports 1 Hindi<br/>
+          <span style={{ color:"#f97316",fontWeight:800 }}>Dreamly-IPL</span> · Star Sports 1 Tamil HD<br/>
           Watch Live button appears automatically during match hours
         </div>
       </div>
