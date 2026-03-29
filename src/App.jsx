@@ -365,7 +365,7 @@ function SayanBadge({ isLive }) {
         </svg>
         {isLive && <span className="pulse" style={{ position:"absolute",bottom:3,right:3,width:7,height:7,borderRadius:"50%",background:"#ff2d2d",boxShadow:"0 0 5px #ff2d2d" }}/>}
       </div>
-      <span style={{ fontSize:7,fontWeight:800,letterSpacing:.5,color:isLive?"#f97316":"var(--text-muted)",textTransform:"uppercase" }}>SAYAN-IPL</span>
+      <span style={{ fontSize:7,fontWeight:800,letterSpacing:.5,color:isLive?"#f97316":"var(--text-muted)",textTransform:"uppercase" }}>Dreamly5-IPL</span>
     </div>
   );
 }
@@ -634,7 +634,7 @@ export default function App() {
         }
 
         <div style={{ marginTop:24,textAlign:"center",color:"var(--text-muted)",fontSize:10,lineHeight:2 }}>
-          <span style={{ color:"#f97316",fontWeight:800 }}>Dreamly-IPL</span> · Star Sports 1 Tamil HD<br/>
+          <span style={{ color:"#f97316",fontWeight:800 }}>Dreamly5-IPL</span> · Star Sports 1 Tamil HD<br/>
           Watch Live button appears automatically during match hours
         </div>
       </div>
