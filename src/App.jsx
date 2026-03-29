@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 
 const JSON_URL = null;
-const STREAM_URL = "https://star-sport-1-hindi-sayan.pages.dev/";
+const STREAM_URL = "https://dreamly-cdn.pages.dev/Player43/";
 
 // ─── IST Time Helpers ─────────────────────────────────────────────────────────
 function getIST() {
