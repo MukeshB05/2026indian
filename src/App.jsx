@@ -594,7 +594,7 @@ export default function App() {
               <div>
                 <div style={{ display:"flex",alignItems:"center",gap:6,marginBottom:3 }}><LiveBadge/></div>
                 <div style={{ color:"#fff",fontWeight:800,fontSize:13 }}>{liveNow[0].homeShort} vs {liveNow[0].awayShort}</div>
-                <div style={{ color:"rgba(255,255,255,0.6)",fontSize:10 }}>Star Sports 1 Hindi · {liveNow[0].matchType==="day" ? "2:00 PM – 8:00 PM" : "6:00 PM – 2:00 AM"} IST</div>
+                <div style={{ color:"rgba(255,255,255,0.6)",fontSize:10 }}>Star Sports 1 Tamil HD · {liveNow[0].matchType==="day" ? "2:00 PM – 8:00 PM" : "6:00 PM – 2:00 AM"} IST</div>
               </div>
               <TeamLogo team={liveNow[0].awayShort} size={36}/>
             </div>
