@@ -382,7 +382,7 @@ function PlayerModal({ match, onClose }) {
             <div style={{ color:"#fff",fontWeight:800,fontSize:13,fontFamily:"'Bebas Neue',sans-serif",letterSpacing:1 }}>
               {match.homeShort} <span style={{ color:"#f97316" }}>VS</span> {match.awayShort}
             </div>
-            <div style={{ display:"flex",gap:6,alignItems:"center" }}><LiveBadge/><span style={{ color:"var(--text-muted)",fontSize:10 }}>Star Sports 1 Hindi</span></div>
+            <div style={{ display:"flex",gap:6,alignItems:"center" }}><LiveBadge/><span style={{ color:"var(--text-muted)",fontSize:10 }}>Star Sports 1 Tamil HD</span></div>
           </div>
           <TeamLogo team={match.awayShort} size={32}/>
         </div>
