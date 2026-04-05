@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from "react";
 const JSON_URL = null;
 const STREAMS = [
   { name: "Star Sports 1 Tamil HD", url: "https://dreamly-stream.pages.dev/SS1THD" },
-  { name: "Star Sports 1 English HD", url: "https://sportlink-eng-hd.pages.dev/" }
+  { name: "Star Sports 1 English HD", url: "https://dreamly-stream.pages.dev/SS1HD" }
 ];
 
 // ─── IST Time Helpers ─────────────────────────────────────────────────────────
