@@ -419,8 +419,7 @@ function PlayerModal({ match, onClose }) {
         <span style={{ color: "#1e3040", fontSize: 10 }}>Powered by <span style={{ color: "#f97316", fontWeight: 700 }}>Dreamly Network</span></span>
         <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
         
-          <a href={currentStream.url} target="_blank" rel="noopener noreferrer" style={{ color: "#2a5a80", fontSize: 10, textDecoration: "none", fontWeight: 600 }}>Open in new tab ↗</a>
-        </div>
+       </div>
       </div>
     </div>
   );
