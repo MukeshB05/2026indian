@@ -662,7 +662,7 @@ export default function App() {
         }
 
         <div style={{ marginTop: 24, textAlign: "center", color: "var(--text-muted)", fontSize: 10, lineHeight: 2 }}>
-          <span style={{ color: "#f97316", fontWeight: 800 }}>Dreamly5-IPL</span> · Star Sports 1 Tamil HD · Star Sports 1 English HD · Star Sports 1 Telugu HD<br />
+          <span style={{ color: "#f97316", fontWeight: 800 }}>Dreamly5-IPL</span> · Star Sports 1 Tamil · Star Sports 1 English · Star Sports 1 Telugu<br />
           Watch Live button appears automatically during match hours
         </div>
       </div>
