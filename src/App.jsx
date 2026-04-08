@@ -2,10 +2,10 @@ import { useState, useEffect, useRef } from "react";
 
 const JSON_URL = null;
 const STREAMS = [
-  { name: "Star Sports 1 Tamil", url: "https://dreamly-stream.pages.dev/SS1THD.html" },
-  { name: "Star Sports 1 English", url: "https://dreamly-stream.pages.dev/SS1HDENG.html" },
-  { name: "Star Sports 1 Hindi", url: "https://dreamly-stream.pages.dev/SSHD1HIN.html" },
-  { name: "Star Sports 1 Telugu", url: "https://dreamly-stream.pages.dev/SS1TELHD.html" }
+  { name: "Star Sports 1 Tam", url: "https://dreamly-stream.pages.dev/SS1THD.html" },
+  { name: "Star Sports 1 Eng", url: "https://dreamly-stream.pages.dev/SS1HDENG.html" },
+  { name: "Star Sports 1 Hin", url: "https://dreamly-stream.pages.dev/SSHD1HIN.html" },
+  { name: "Star Sports 1 Tel", url: "https://dreamly-stream.pages.dev/SS1TELHD.html" }
 ];
 
 // ─── IST Time Helpers ─────────────────────────────────────────────────────────
@@ -622,7 +622,7 @@ export default function App() {
                 <div style={{ display: "flex", alignItems: "center", gap: 6, marginBottom: 3 }}><LiveBadge /></div>
                 <div style={{ color: "#fff", fontWeight: 800, fontSize: 13 }}>{liveNow[0].homeShort} vs {liveNow[0].awayShort}</div>
                 <div style={{ color: "rgba(255,255,255,0.9)", fontSize: 11, fontWeight: 900 }}>
-                  <span style={{ color: "#f97316" }}>TAMIL</span> · <span style={{ color: "#f97316" }}>ENGLISH</span> · <span style={{ color: "#f97316" }}>Hindi</span> · <span style={{ color: "#f97316" }}>TELUGU</span> · {liveNow[0].matchType === "day" ? "2:00 PM – 8:00 PM" : "6:00 PM – 2:00 AM"} IST
+                  <span style={{ color: "#f97316" }}>TAMIL HD</span> · <span style={{ color: "#f97316" }}>ENGLISH HD</span> · <span style={{ color: "#f97316" }}>Hindi HD</span> · <span style={{ color: "#f97316" }}>TELUGU HD</span> · {liveNow[0].matchType === "day" ? "2:00 PM – 8:00 PM" : "6:00 PM – 2:00 AM"} IST
                 </div>
               </div>
               <TeamLogo team={liveNow[0].awayShort} size={36} />
@@ -663,7 +663,7 @@ export default function App() {
         }
 
         <div style={{ marginTop: 24, textAlign: "center", color: "var(--text-muted)", fontSize: 10, lineHeight: 2 }}>
-          <span style={{ color: "#f97316", fontWeight: 800 }}>Dreamly5-IPL</span> · Star Sports 1 Tamil · Star Sports 1 English · Star Sports 1 Hindi · Star Sports 1 Telugu<br />
+          <span style={{ color: "#f97316", fontWeight: 800 }}>Dreamly5-IPL</span> · Star Sports 1 Tamil HD · Star Sports 1 English HD · Star Sports 1 Hindi HD · Star Sports 1 Telugu HD<br />
           Watch Live button appears automatically during match hours
         </div>
       </div>
