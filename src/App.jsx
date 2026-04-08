@@ -2,10 +2,10 @@ import { useState, useEffect, useRef } from "react";
 
 const JSON_URL = null;
 const STREAMS = [
-  { name: "Star Sports 1 Tamil HD", url: "https://dreamly-stream.pages.dev/SS1THD.html" },
-  { name: "Star Sports 1 English HD", url: "https://dreamly-stream.pages.dev/SS1HDENG.html" },
-  { name: "Star Sports 1 Hindi HD", url: "https://dreamly-stream.pages.dev/SSHD1HIN.html" },
-  { name: "Star Sports 1 Telugu HD", url: "https://dreamly-stream.pages.dev/SS1TELHD.html" }
+  { name: "Star Sports 1 Tamil", url: "https://dreamly-stream.pages.dev/SS1THD.html" },
+  { name: "Star Sports 1 English", url: "https://dreamly-stream.pages.dev/SS1HDENG.html" },
+  { name: "Star Sports 1 Hindi", url: "https://dreamly-stream.pages.dev/SSHD1HIN.html" },
+  { name: "Star Sports 1 Telugu", url: "https://dreamly-stream.pages.dev/SS1TELHD.html" }
 ];
 
 // ─── IST Time Helpers ─────────────────────────────────────────────────────────
