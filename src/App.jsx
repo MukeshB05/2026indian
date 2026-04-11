@@ -3,8 +3,8 @@ import { useState, useEffect, useRef } from "react";
 const JSON_URL = null;
 const STREAMS = [
   { name: "Star Sports 1 Tam", url: "https://dreamly-stream.pages.dev/SS1THD.html" },
-  { name: "Star Sports 1 Eng", url: "https://dreamly-stream.pages.dev/SS1HDENG.html" },
-  { name: "Star Sports 1 Hin", url: "https://dreamly-stream.pages.dev/Hotstarhin.html" },
+  { name: "Star Sports 1 Eng", url: "https://dreamly-stream.pages.dev/SS1HDEnglish.html" },
+  { name: "Star Sports 1 Hin", url: "https://dreamly-stream.pages.dev/SS1HDHindi.html" },
   { name: "Star Sports 1 Tel", url: "https://dreamly-stream.pages.dev/SS1TELHD.html" }
 ];
 
