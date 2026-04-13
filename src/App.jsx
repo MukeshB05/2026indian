@@ -5,7 +5,7 @@ const STREAMS = [
   { name: "Star Sports 1 Tam", url: "https://dreamly-stream.pages.dev/SS1HDTamil.html" },
   { name: "Star Sports 1 Eng", url: "https://dreamly-stream.pages.dev/SS1HDEnglish.html" },
   { name: "Star Sports 1 Hin", url: "https://dreamly-stream.pages.dev/SS1HDHindi.html" },
-  { name: "Star Sports 1 Tel", url: "https://dreamly-stream.pages.dev/SS1TELHD.html" }
+  { name: "Star Sports 1 Tel", url: "https://dreamly-stream.pages.dev/SS1HDTelugu.html" }
 ];
 
 // ─── IST Time Helpers ─────────────────────────────────────────────────────────
