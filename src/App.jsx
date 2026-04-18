@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from "react";
 const JSON_URL = null;
 const STREAMS = [
   { name: "Star Sports 1 Tam", url: "https://dreamly-stream.pages.dev/SS2HDEnglish.html" },
-  { name: "Star Sports 1 Eng", url: "https://dreamly-stream.pages.dev/SS2HDTamil.html" },
+  { name: "Star Sports 1 Eng", url: "https://dreamly-stream.pages.dev/SSHD2English.html" },
   { name: "Star Sports 1 Hin", url: "https://dreamly-stream.pages.dev/SS1HDHindi.html" },
   { name: "Star Sports 1 Tel", url: "https://dreamly-stream.pages.dev/SS1HDTelugu.html" }
 ];
